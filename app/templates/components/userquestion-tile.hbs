@@ -2,14 +2,15 @@
 
 
 <div class="questionIndex">
+  <hr>
   {{#link-to 'question' question.id}}
 
   <h1>{{question.userquestion}}</h1>
-  
+
   {{/link-to}}
 
-  <p>
-  <img src={{question.image}} alt="user profile image" width="100px"/>{{question.author}}<br>
+  <p class="author">
+  <img src={{question.image}} alt="user profile image" width="100px"/>By {{question.author}}<br>
   </p>
 
 
@@ -24,8 +25,7 @@
 
   {{else}}
 
-    <p><button class="questionButton moreQuestionButton" {{action 'notesShow'}}>More Details</button></p>
+    <p><button class="questionButton moreQuestionButton" {{action 'notesShow'}}>More...</button></p>
 
   {{/if}}
-
 </div>
