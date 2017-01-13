@@ -1,0 +1,29 @@
+
+{{#if addQuestionForm}}
+    <form>
+      <div class="form-group">
+        <label for="userquestion">Ask A Question</label>
+        {{input value=userquestion id="userquestion" placeholder=question.userquestion}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Copy Profile Image URL Here</label>
+        {{input value=image id="image" placeholder=question.image}}
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" placeholder=question.author}}
+      </div>
+
+      <div class="form-group">
+        <label for="notes">More Details About You or This Question</label>
+        {{input value=notes id="notes" placeholder=question.notes}}
+      </div>
+
+      <button {{action 'saveNew'}}>Save</button>
+
+    </form>
+{{else}}
+  <button {{action 'addQuestionShow'}}>Ask A Question</button>
+{{/if}}

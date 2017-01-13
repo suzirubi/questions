@@ -2,9 +2,14 @@
 
   <h1>{{model.userquestion}}</h1>
 
-    <p class="author"><image src={{model.image}} alt="user profile image" />By {{model.author}}<br>
+  <p class="author"><img src={{model.image}} alt="user profile image" />By {{model.author}}<br>
   </p>
 
   <p>{{model.notes}}</p>
+
+
+{{edit-question question=model save="save"}}
+{{userquestion-fulltile question=model destroyQuestion="destroyQuestion"}}
+
 
 </div>
