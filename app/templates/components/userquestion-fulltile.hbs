@@ -1,0 +1,10 @@
+{{#link-to 'question' question.id}}
+  <div class="questionIndex">
+    <h1>{{question.userquestion}}</h1>
+    <p><image src={{question.image}} alt="user profile image" width="100px"/>{{question.author}}</p>
+    <p>{{question.notes}}</p>
+    <button class="questionButton editQuestion">Edit This Question</button>
+    <button class="questionButton askQuestion">Ask A Question</button>
+    <button class="answerButton">Answer This Question</button>
+  </div>
+{{/link-to}}

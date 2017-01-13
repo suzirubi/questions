@@ -1,0 +1,31 @@
+
+
+
+<div class="questionIndex">
+  {{#link-to 'question' question.id}}
+
+  <h1>{{question.userquestion}}</h1>
+  
+  {{/link-to}}
+
+  <p>
+  <img src={{question.image}} alt="user profile image" width="100px"/>{{question.author}}<br>
+  </p>
+
+
+
+
+
+  {{#if isNotesShowing}}
+
+    <p>{{question.notes}}</p>
+
+    <p><button class="questionButton hideQuestionButton" {{action 'notesHide'}}>Hide Details</button></p>
+
+  {{else}}
+
+    <p><button class="questionButton moreQuestionButton" {{action 'notesShow'}}>More Details</button></p>
+
+  {{/if}}
+
+</div>
