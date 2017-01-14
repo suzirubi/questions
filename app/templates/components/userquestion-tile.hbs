@@ -2,7 +2,6 @@
 
 
 <div class="questionIndex">
-  <hr>
   {{#link-to 'question' question.id}}
 
   <h1>{{question.userquestion}}</h1>
@@ -14,9 +13,6 @@
   </p>
 
 
-
-
-
   {{#if isNotesShowing}}
 
     <p>{{question.notes}}</p>
@@ -26,6 +22,9 @@
   {{else}}
 
     <p><button class="questionButton moreQuestionButton" {{action 'notesShow'}}>More...</button></p>
+
+    <hr>
+
 
   {{/if}}
 </div>
