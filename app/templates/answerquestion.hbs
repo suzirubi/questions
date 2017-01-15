@@ -2,6 +2,8 @@
 
 {{#each model.questions as |question|}}
   {{question-detail question=question}}
+  {{save-answer saveNewAnswer="saveNewAnswer" question=model}}
+
 {{/each}}
 
 </div>

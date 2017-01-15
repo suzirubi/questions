@@ -20,6 +20,12 @@ export default Ember.Component.extend({
       };
       this.set('addAnswerForm', false);
       this.sendAction('saveNewAnswer', params);
+    },
+    notesShow: function() {
+      this.set('isNotesShowing', true);
+    },
+    notesHide: function() {
+      this.set('addAnswerForm', false);
     }
   }
 });

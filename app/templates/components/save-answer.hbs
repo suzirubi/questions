@@ -21,7 +21,7 @@
         {{input value=notes id="notes" placeholder=answer.notes}}
       </div>
 
-      <button class="answerButton" {{action 'saveNewAnswer'}}>Save</button>
+      <button class="answerButton save" {{action 'saveNewAnswer'}}>Save</button><button {{action 'notesHide'}}>Hide Form</button>
 
     </form>
 {{else}}
