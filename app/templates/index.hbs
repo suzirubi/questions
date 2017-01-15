@@ -5,6 +5,17 @@
 <hr>
 
 
-{{#each model as |question|}}
+{{#each model.questions as |question|}}
   {{userquestion-tile question=question}}
 {{/each}}
+
+<div class="questionIndex">
+  {{#each model.answers as |answer|}}
+    <p class="author">
+    <img src={{answer.image}} alt="user profile image" width="100px"/>By {{answer.author}}<br>
+    </p>
+    <h6>{{answer.useranswer}}</h6>
+    <p>{{answer.notes}}</p>
+    <hr>
+  {{/each}}
+</div>
