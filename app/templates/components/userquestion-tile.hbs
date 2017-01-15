@@ -17,14 +17,11 @@
 
     <p>{{question.notes}}</p>
 
-    <p><button class="questionButton hideDetailButton" {{action 'notesHide'}}>Hide Details</button></p>
+    <p><button class="questionButton hideDetailButton" {{action 'notesHide'}}>Hide Details</button><button class="answerButton">ANSWER THIS QUESTION</button></p>
 
   {{else}}
 
-    <p><button class="questionButton moreQuestionButton" {{action 'notesShow'}}>More...</button></p>
-
-    <hr>
-
+    <p><button class="questionButton moreQuestionButton" {{action 'notesShow'}}>DETAILS...</button><button class="answerButton">ANSWER THIS QUESTION</button></p>
 
   {{/if}}
 </div>

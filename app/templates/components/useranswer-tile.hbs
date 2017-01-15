@@ -1,0 +1,19 @@
+
+<div class="answerIndex">
+    <p class="author">
+    <img src={{answer.image}} alt="user profile image" width="100px"/>By {{answer.author}}<br>
+    </p>
+    <h6>{{answer.useranswer}}</h6>
+
+    {{#if isNotesShowing}}
+
+      <p>{{answer.notes}}</p>
+
+      <p><button class="answerButton hideAnswerDetailButton" {{action 'notesHide'}}>Hide Details</button></p>
+
+      {{else}}
+
+        <p><button class="answerButton moreAnswerButton" {{action 'notesShow'}}>More...</button></p>
+    <hr>
+    {{/if}}
+</div>

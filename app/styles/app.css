@@ -8,7 +8,7 @@ a:hover {
 .container {
   width: 100vw;
   height: 100vh;
-  margin: 1.5em 0 0 1em;
+  margin: 0;
   padding: 0;
 }
 .navbar {
@@ -25,6 +25,8 @@ a:hover {
   width: 70%;
   margin-left: 1em;
 }
+
+/*ul's svg are in Nav only*/
 ul {
   width: 30%;
   list-style: none;
@@ -45,6 +47,10 @@ li {
 svg {
   height: 3em;
 }
+/*ul's svg are in Nav only*/
+
+
+
 img {
   border-radius: 50%;
   width: 75px;
@@ -52,7 +58,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: helvetica, sans-serif;
-  margin-top: 1em;
+  margin: 0em 0em .25em 0em;
 }
 h1 {
   font-size: 1.5em;
@@ -73,9 +79,7 @@ button {
   text-transform: uppercase;
   font-size: .5em;
   font-weight: bold;
-  background-color: grey;
   border: 0px;
-  color: black;
   border-radius: 2px;
   letter-spacing: .1em;
   margin-top: 1em;
@@ -87,7 +91,26 @@ font-style: italic;
 }
 .questionIndex {
   margin: 0em 4em 0em 1em;
+  background-color: #f4f4f4;
+  padding: 1em;
+  margin: 1em;
 }
+.answerIndex {
+  margin: 0em 4em 0em 1em;
+}
+.questionButton {
+  background-color: #cccccc;
+  color: grey;
+  border: .5px solid
+#676767;
+  margin-right: 1em;
+}
+.answerButton {
+  background-color: #f1f8fb;
+  color: #2b6dad;
+  border: .5px solid #2b6dad;
+}
+
 
 form {
   font-family: helvetica, sans-serif;
