@@ -1,0 +1,29 @@
+
+{{#if addAnswerForm}}
+    <form>
+      <div class="form-group">
+        <label for="useranswer">Answer  Question</label>
+        {{input value=useranswer id="useranswer" placeholder=answer.useranswer}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Copy Profile Image URL Here</label>
+        {{input value=image id="image" placeholder=answer.image}}
+      </div>
+
+      <div class="form-group">
+        <label for="userauthor">Author</label>
+        {{input value=author id="author" placeholder=answer.author}}
+      </div>
+
+      <div class="form-group">
+        <label for="notes">More Details About You or This Question</label>
+        {{input value=notes id="notes" placeholder=answer.notes}}
+      </div>
+
+      <button {{action 'saveNewAnswer'}}>Save</button>
+
+    </form>
+{{else}}
+  <button {{action 'addAnswerShow'}}>Answer A Question</button>
+{{/if}}

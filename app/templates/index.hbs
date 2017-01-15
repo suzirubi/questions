@@ -8,8 +8,8 @@
   {{userquestion-tile question=question}}
 {{/each}}
 
-<h1 class="answerHead">Answers</h1>
-
 {{#each model.answers as |answer|}}
   {{useranswer-tile answer=answer}}
 {{/each}}
+
+{{save-answer saveNewAnswer="saveNewAnswer"}}
