@@ -1,3 +1,6 @@
+<div class="questionIndex">
+
+
 <h1>{{question.userquestion}}</h1>
 
 <p class="author"><img src={{question.image}} alt="user profile image" />By {{question.author}}<br>
@@ -11,3 +14,4 @@
 {{#each question.answers as |answer|}}
   {{useranswer-tile answer=answer}}
 {{/each}}
+</div>
