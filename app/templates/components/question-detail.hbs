@@ -1,0 +1,13 @@
+<h1>{{question.userquestion}}</h1>
+
+<p class="author"><img src={{question.image}} alt="user profile image" />By {{question.author}}<br>
+</p>
+
+<p>{{question.notes}}</p>
+
+
+<h4>ANSWERS</h4>
+
+{{#each question.answers as |answer|}}
+  {{useranswer-tile answer=answer}}
+{{/each}}

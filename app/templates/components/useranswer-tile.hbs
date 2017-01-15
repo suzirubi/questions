@@ -9,11 +9,12 @@
 
       <p>{{answer.notes}}</p>
 
-      <p><button class="answerButton hideAnswerDetailButton" {{action 'notesHide'}}>Hide Details</button></p>
+      <p><button class="details" {{action 'notesHide'}}>Hide Details</button></p>
 
       {{else}}
 
-        <p><button class="answerButton moreAnswerButton" {{action 'notesShow'}}>More...</button></p>
-    <hr>
+        <p><button class="details" {{action 'notesShow'}}>details...</button></p>
     {{/if}}
+    <hr>
+
 </div>

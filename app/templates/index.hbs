@@ -1,15 +1,11 @@
+<div class="askIndex">
+
 <h1>Ask A Question</h1>
 
 {{save-question saveNew="saveNew"}}
-
+</div>
 <hr>
 
 {{#each model.questions as |question|}}
   {{userquestion-tile question=question}}
 {{/each}}
-
-{{#each model.answers as |answer|}}
-  {{useranswer-tile answer=answer}}
-{{/each}}
-
-{{save-answer saveNewAnswer="saveNewAnswer"}}

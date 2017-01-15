@@ -95,8 +95,22 @@ font-style: italic;
   padding: 1em;
   margin: 1em;
 }
-.answerIndex {
+.askIndex {
   margin: 0em 4em 0em 1em;
+  background-color: #e6e6e6;
+  padding: 1em;
+  margin: 1em;
+}
+.details {
+  background-color: #f4f4f4;
+  border: 0px solid #f4f4f4;
+  text-transform: lowercase;
+  margin: 0;
+  padding:0;
+}
+.details:hover {
+  color: #990000;
+  text-transform: uppercase;
 }
 .questionButton {
   background-color: #cccccc;
@@ -109,6 +123,9 @@ font-style: italic;
   background-color: #f1f8fb;
   color: #2b6dad;
   border: .5px solid #2b6dad;
+}
+.save {
+  margin-right: 1em;
 }
 
 

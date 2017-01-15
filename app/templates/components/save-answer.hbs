@@ -21,9 +21,9 @@
         {{input value=notes id="notes" placeholder=answer.notes}}
       </div>
 
-      <button {{action 'saveNewAnswer'}}>Save</button>
+      <button class="answerButton" {{action 'saveNewAnswer'}}>Save</button>
 
     </form>
 {{else}}
-  <button {{action 'addAnswerShow'}}>Answer A Question</button>
+  <button class="answerButton"  {{action 'addAnswerShow'}}>Answer This Question</button>
 {{/if}}

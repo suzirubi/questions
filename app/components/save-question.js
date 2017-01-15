@@ -2,6 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   addQuestionForm: false,
+  isNotesShowing: false,
   actions: {
     addQuestionShow() {
       this.set('addQuestionForm', true);
@@ -18,6 +19,12 @@ export default Ember.Component.extend({
       };
       this.set('addQuestionForm', false);
       this.sendAction('saveNew', params);
+    },
+    notesShow: function() {
+      this.set('isNotesShowing', true);
+    },
+    notesHide: function() {
+      this.set('addQuestionForm', false);
     }
   }
 });

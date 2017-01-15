@@ -4,5 +4,6 @@ export default DS.Model.extend({
   author: DS.attr(),
   image: DS.attr(),
   useranswer: DS.attr(),
-  notes: DS.attr()
+  notes: DS.attr(),
+  question: DS.belongsTo('question', { async: true })
 });

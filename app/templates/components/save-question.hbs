@@ -1,5 +1,5 @@
 
-{{#if addQuestionForm}}
+{{#if addQuestionForm isNotesShowing}}
     <form>
       <div class="form-group">
         <label for="userquestion">Ask A Question</label>
@@ -21,7 +21,7 @@
         {{input value=notes id="notes" placeholder=question.notes}}
       </div>
 
-      <button {{action 'saveNew'}}>Save</button>
+      <button class="save" {{action 'saveNew'}}>Save</button><button {{action 'notesHide'}}>Hide Form</button>
 
     </form>
 {{else}}

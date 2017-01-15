@@ -1,15 +1,18 @@
 <div class="questionIndex">
 
-  <h1>{{model.userquestion}}</h1>
-
-  <p class="author"><img src={{model.image}} alt="user profile image" />By {{model.author}}<br>
-  </p>
-
-  <p>{{model.notes}}</p>
-
-
 {{edit-question question=model save="save"}}
-{{userquestion-fulltile question=model destroyQuestion="destroyQuestion"}}
+
+<p><br></p>
+
+{{question-detail question=model}}
+
+<br>
+
+
+{{save-answer saveNewAnswer="saveNewAnswer" question=model}}
+
+{{userquestion-delete question=model destroyQuestion="destroyQuestion"}}
+
 
 
 </div>
