@@ -1,4 +1,4 @@
-# Javascript Week One Independent Project: Modern JS Apps
+# Javascript Week Two Independent Project: Ember Independent Question and Answer Project
 _*Epicodus Javascript Independent Project 1-13-17*_
 
 _*Project Name: Ember Independent Project *_
