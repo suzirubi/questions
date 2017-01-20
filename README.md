@@ -84,6 +84,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 
 #####This and previous project links
+* [Repository for Javascript Week Two Independent Project - Ember](https://github.com/suzirubi/questions.git)
 * [Repository for Javascript Week One Independent Project - Modern APIs](https://github.com/suzirubi/doctors.git)
 * [Visit my gh-page for CSS Independent Project #4](https://rawgit.com/suzirubi/kerrWebCalendar/master/index.html)
 * [Visit my gh-page for CSS Independent Project #3](https://rawgit.com/suzirubi/tarot/master/index.html)
