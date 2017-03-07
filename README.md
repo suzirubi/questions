@@ -9,30 +9,30 @@ _*Project Author: Suzi Rubino*_
 Create a question and answer message board where a user submits a question and other users can respond with answers.
 
 - [x] Questions should have the content of the question itself, an author and additional notes.
-- [ ] Answers should have the content of the answer and the author.
-- [ ] Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
-- [ ] List all questions on the homepage, with only the question and the name of the author showing.
-- [ ] Users should be able to click on a question, and be routed to another page containing additional information.
-- [ ] Allow users to add and edit questions.
-- [ ] Allow users to add answers to a question.
-- [ ] Answers should be added and viewed on the same page as the question they respond to.
+- [x] Answers should have the content of the answer and the author.
+- [x] Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+- [x] List all questions on the homepage, with only the question and the name of the author showing.
+- [x] Users should be able to click on a question, and be routed to another page containing additional information.
+- [x] Allow users to add and edit questions.
+- [x] Allow users to add answers to a question.
+- [x] Answers should be added and viewed on the same page as the question they respond to.
 
 ###Further Exploration
 
-- [ ] Add custom styling.
+- [x] Add custom styling.
 - [ ] Implement upvote/downvote functionality so that users may vote on answers.
 - [ ] Add tags to questions.
 
 ###Objectives
 
-- [ ] Application template contains header with link(s).
-- [ ] Data is stored and retrieved from Ember Data models and Firebase.
-- [ ] Components are used to create display and behavior for this template.
-- [ ] One-to-many relationship exists between Questions and Answers.
-- [ ] Application works as expected.
-- [ ] Project is in a presentable, portfolio-quality state.
-- [ ] Required functionality is in place by Friday deadline.
-- [ ] Project demonstrates understanding of the week's concepts. If prompted, I should be able to discuss code with an instructor using the correct terminology.
+- [x] Application template contains header with link(s).
+- [x] Data is stored and retrieved from Ember Data models and Firebase.
+- [x] Components are used to create display and behavior for this template.
+- [x] One-to-many relationship exists between Questions and Answers.
+- [x] Application works as expected.
+- [x] Project is in a presentable, portfolio-quality state.
+- [x] Required functionality is in place by Friday deadline.
+- [x] Project demonstrates understanding of the week's concepts. If prompted, I should be able to discuss code with an instructor using the correct terminology.
 
 ##SETUP INSTRUCTIONS
 
